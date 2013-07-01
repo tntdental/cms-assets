@@ -89,3 +89,38 @@ article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,su
 		display: none !important;
 	}
 }
+
+/* TNT Forms Toggle Theme - Default
+----------------------------------*/
+
+.toggleBtn-off,
+.toggleBtn-on {
+	display: inline-block;
+	margin:	2px 5px 3px;
+	width: 36px;
+	height: 16px;
+	line-height: 20px;
+	background: transparent url(assets/images/switch.png) no-repeat left bottom;
+	text-decoration: none;
+	vertical-align: middle;
+	outline: none;
+}
+.toggleBtn-on {
+	background-position: left top;
+	cursor: default;
+}
+.toggleBtn-off:hover,
+.toggleBtn-on:hover {
+	text-decoration: none;
+}
+.security.toggle span {
+	font-weight: bold;
+}
+.security.toggle span:first-child {
+	display: block;
+}
+.security.toggle span:nth-child(2) {
+	display: inline-block;
+}
+.security.toggle span:last-child {
+}
