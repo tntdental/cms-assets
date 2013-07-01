@@ -18,7 +18,7 @@ article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,su
 
 
 /* css helpers */
-.elem-right,.elem-left {
+.elem-right, .elem-left, .block {
 	display:block;
 }
 .elem-right {
@@ -28,9 +28,6 @@ article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,su
 .elem-left {
 	float:left;
 	margin:0 10px 10px 0;
-}
-.block{
-	display: block;
 }
 .shadow{
 	box-shadow: 0 0 3px #000;
