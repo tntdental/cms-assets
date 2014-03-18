@@ -64,7 +64,7 @@ h1:first-child{
 }
 
 /* responsive nav styles */
-#responsive-nav{text-align:center}#responsive-nav >a{display:inline-block;vertical-align:middle;padding:3px 10px;color:#fff}#responsive-nav >a>i{display:block;font-size:x-large}
+#responsive-nav{text-align:center}#responsive-nav >a{display:inline-block;vertical-align:middle;padding:3px 10px;}#responsive-nav >a>i{display:block;font-size:x-large}
 
 
 /* responsive design (from bootstrap 3) http://getbootstrap.com/css/#responsive-utilities */
